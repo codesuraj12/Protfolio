@@ -1,0 +1,96 @@
+.margin {
+    margin: 90px 0;
+}
+
+.line {
+    height: 0.7rem;
+    /* background-color: rgba(101, 174, 179, 0.699); */
+   
+    box-shadow: 6px 12px 4px rgb(89, 89, 218);
+
+}
+
+/* use in list */
+.hover-line{
+    position: relative;
+    /* display: inline-block; */
+  }
+  .hover-line:after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #108d91;
+  transition: width 0.6s ease ;
+  }
+  .hover-line:hover::after{
+    width: 100%;
+  
+  }
+  
+
+h1 {
+    color: #000000;
+    margin: 45px 0;
+    font-size: 30px;
+
+}
+
+
+
+.education {
+    
+    
+    margin: 20px auto;
+    max-width: 70vw;
+  
+}
+
+
+
+.contact {
+    margin: auto;
+    max-width: 70vw;
+
+}
+
+
+.box:hover {
+    cursor: pointer;
+    box-shadow: 2px 4px 3px #108d91;
+    
+}
+
+
+.study {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+@media (max-width: 768px) {
+   
+  
+    .box h4 {
+      font-size: 1rem; /* Adjust font size */
+      padding: 10px;
+    }
+  
+    .box p {
+      font-size: 10px; /* Smaller text */
+      padding: 5px;
+    }
+  }
+
+/* use in javascript dark theme */
+  .color{
+    background-color: rgb(35, 3, 43);
+    color: rgb(228, 230, 229);
+    
+  }
+  .bg-h1{
+    color: rgb(182, 140, 4);
+  }
